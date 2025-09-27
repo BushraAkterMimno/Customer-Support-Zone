@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Navbar = () => {
+  
     return (
         <div className="navbar bg-white shadow-sm">
         <div className='container mx-auto flex items-center'>
