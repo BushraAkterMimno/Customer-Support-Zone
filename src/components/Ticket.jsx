@@ -18,6 +18,7 @@ const Ticket = ({ tickets, onTicketClick }) => {
               ticket.status === 'In-Progress' ? 'bg-yellow-300 text-yellow-800' : 
               'bg-gray-300 text-gray-800'
             }`}>
+
               <FaCircle className={`mr-1 ${
                 ticket.status === 'Open' ? 'text-green-700' : 
                 ticket.status === 'In-Progress' ? 'text-yellow-600' : 
@@ -38,6 +39,7 @@ const Ticket = ({ tickets, onTicketClick }) => {
                 ticket.priority === 'LOW PRIORITY' ? 'text-[#02A53B]' : '' 
               }`}>{ticket.priority}</p>
             </div>
+            
             <div className='text-sm flex gap-2 items-center'>
               <p className='text-gray-600'>{ticket.customer}</p>
               <p className='flex items-center text-gray-600'>
