@@ -8,6 +8,7 @@
     "status": "Open",
     "createdAt": "1/15/2024"
   },
+
   {
     "id": "#1002",
     "title": "Payment Failed - Card Declined",
@@ -17,6 +18,7 @@
     "status": "Open",
     "createdAt": "1/16/2024"
   },
+
   {
     "id": "#1003",
     "title": "Unable to Download Invoice",
@@ -26,6 +28,7 @@
     "status": "In-Progress",
     "createdAt": "1/17/2024"
   },
+
   {
     "id": "#1004",
     "title": "Incorrect Billing Address",
@@ -35,6 +38,7 @@
     "status": "Open",
     "createdAt": "1/18/2024"
   },
+
   {
     "id": "#1005",
     "title": "App Crash on Launch",
@@ -44,6 +48,7 @@
     "status": "Open",
     "createdAt": "1/19/2024"
   },
+
   {
     "id": "#1006",
     "title": "Refund Not Processed",
@@ -53,6 +58,7 @@
     "status": "In-Progress",
     "createdAt": "1/20/2024"
   },
+
   {
     "id": "#1007",
     "title": "Two-Factor Authentication Issue",
@@ -62,6 +68,7 @@
     "status": "Open",
     "createdAt": "1/21/2024"
   },
+
   {
     "id": "#1008",
     "title": "Unable to Update Profile Picture",
@@ -71,6 +78,7 @@
     "status": "Open",
     "createdAt": "1/22/2024"
   },
+
   {
     "id": "#1009",
     "title": "Subscription Auto-Renewal",
@@ -80,6 +88,7 @@
     "status": "In-Progress",
     "createdAt": "1/17/2024"
   },
+
   {
     "id": "#1010",
     "title": "Missing Order Confirmation Email",
