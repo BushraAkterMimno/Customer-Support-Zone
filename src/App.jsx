@@ -15,15 +15,16 @@ function App() {
   const [inProgressCount, setInProgressCount] = useState(0);
   const [resolvedCount, setResolvedCount] = useState(0);
 
-  // Fetch tickets
+  
   useEffect(() => {
     fetch('/data.json')
       .then(res => res.json())
       .then(data => setTickets(data));
   }, []);
 
+
   const handleTicketClick = (ticket) => {
-    // Only add if not already in taskStatus
+    
     if (!taskStatus.find(t => t.id === ticket.id)) {
       setTaskStatus(prev => [...prev, ticket]);
       setInProgressCount(prev => prev + 1);
