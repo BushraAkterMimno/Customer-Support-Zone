@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Navbar = () => {
-  
+
     return (
         <div className="navbar bg-white shadow-sm">
         <div className='container mx-auto flex items-center'>
@@ -20,7 +20,7 @@ const Navbar = () => {
               <li><a className="">Contact</a></li>
             </ul>
 
-              <button className="bg-[#422AD5] px-3 py-2 text-white rounded">+ New Ticket</button>
+              <button className="bg-gradient-to-r from-[#422AD5] to-[#7e2fa0] px-3 py-2 text-white rounded">+ New Ticket</button>
             </div>
           </div>
         </div>
